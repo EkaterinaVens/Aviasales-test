@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  margin-bottom: 20px;
+
+  .btn {
+    width: 100%;
+    min-height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe5ec;
+    color: #4a4a4a;
+
+    transition: all 0.3s ease-in;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    outline: none;
+
+    &:hover {
+      border-color: #2196f3;
+    }
+
+    &:active {
+      background-color: #f2f2f2;
+    }
+
+    &:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
+
+  .activeBtn {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: 0;
+  }
+}

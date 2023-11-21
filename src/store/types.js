@@ -1,0 +1,5 @@
+export const SET_LOADED_TICKETS = 'SET_LOADED_TICKETS';
+export const SET_READY_TICKETS = 'SET_READY_TICKETS';
+export const SET_FILTERS = 'SET_FILTERS';
+export const SET_SORTING_TYPE = 'SET_SORTING_TYPE';
+export const SET_STATUS = 'SET_STATUS';
